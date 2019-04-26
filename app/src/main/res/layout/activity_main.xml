@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/tv_main_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="二维码的加密与解密演示"
+        android:textSize="30sp"
+        android:gravity="center" />
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_main_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_main_head"
+        android:textSize="15sp"
+        android:text="生成二维码"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_main_scanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_main_output"
+        android:textSize="15sp"
+        android:text="扫描二维码"/>
+
+</RelativeLayout>
